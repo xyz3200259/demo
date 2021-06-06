@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 	<include resource="org/springframework/boot/logging/logback/defaults.xml" />
+	<include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+	<include resource="org/springframework/boot/logging/logback/console-appender.xml" />
 	<property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}" />
 	<springProfile name="dev">
-		<include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+
 		<logger name="org.springframework.data.mybatis" level="DEBUG" additivity="true"/>
 		<logger name="com.huafi.demo" level="DEBUG" additivity="true"/>
 		<root level="INFO">
@@ -17,7 +19,7 @@
 			source="reap.logging.logstash.destinations" />
 		<springProperty scope="context" name="logstash.writeBufferSize"
 			source="reap.logging.logstash.buffer.size" />
-		<include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
 		<if condition='isDefined("logstash.destinations")'>
 			<then>
 				<appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
@@ -50,12 +52,14 @@
 					</encoder>
 				</appender>
 				<root level="INFO">
+					<appender-ref ref="CONSOLE"/>
 					<appender-ref ref="LOGSTASH" />
 					<appender-ref ref="FILE" />
 				</root>
 			</then>
 			<else>
 				<root level="INFO">
+					<appender-ref ref="CONSOLE"/>
 					<appender-ref ref="FILE" />
 				</root>
 			</else>

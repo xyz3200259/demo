@@ -1,0 +1,161 @@
+2021-06-06 10:18:40.394  INFO [reap-demo,,,] 15768 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24c1b2d2: startup date [Sun Jun 06 10:18:40 CST 2021]; root of context hierarchy
+2021-06-06 10:18:41.403  INFO [reap-demo,,,] 15768 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 10:18:41.571  INFO [reap-demo,,,] 15768 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$27721d84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 10:18:43.529  INFO [reap-demo,,,] 15768 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 10:18:43.693  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 10:18:45.109  INFO [reap-demo,,,] 15768 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 10:18:45.113  INFO [reap-demo,,,] 15768 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 10:18:45.407  INFO [reap-demo,,,] 15768 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 10:18:45.407  INFO [reap-demo,,,] 15768 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 10:18:46.048  INFO [reap-demo,,,] 15768 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 10:18:46.666  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 10:18:46.666  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 10:18:46.670  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 10:18:46.670  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 10:18:46.670  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 10:18:46.670  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 10:18:46.670  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 10:18:47.204  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 10:18:47.212  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 10:18:47.220  INFO [reap-demo,,,] 15768 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622945927220 with initial instances count: 3
+2021-06-06 10:18:48.579  INFO [reap-demo,,,] 15768 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 10:18:48.807  INFO [reap-demo,,,] 15768 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 10:18:48.807  INFO [reap-demo,,,] 15768 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
+2021-06-06 10:20:56.024  INFO [reap-demo,,,] 15180 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64b0598: startup date [Sun Jun 06 10:20:56 CST 2021]; root of context hierarchy
+2021-06-06 10:20:57.096  INFO [reap-demo,,,] 15180 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 10:20:57.364  INFO [reap-demo,,,] 15180 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d45a5b52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 10:20:59.014  INFO [reap-demo,,,] 15180 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 10:20:59.190  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 10:21:00.653  INFO [reap-demo,,,] 15180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 10:21:00.653  INFO [reap-demo,,,] 15180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 10:21:00.916  INFO [reap-demo,,,] 15180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 10:21:00.916  INFO [reap-demo,,,] 15180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 10:21:01.531  INFO [reap-demo,,,] 15180 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 10:21:02.160  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 10:21:02.170  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 10:21:02.170  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 10:21:02.170  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 10:21:02.170  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 10:21:02.170  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 10:21:02.170  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 10:21:02.774  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 10:21:02.783  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 10:21:02.795  INFO [reap-demo,,,] 15180 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622946062791 with initial instances count: 3
+2021-06-06 10:21:04.108  INFO [reap-demo,,,] 15180 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 10:21:04.397  INFO [reap-demo,,,] 15180 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 10:21:04.397  INFO [reap-demo,,,] 15180 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
+2021-06-06 10:23:24.870  INFO [reap-demo,,,] 6424 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@700fb871: startup date [Sun Jun 06 10:23:24 CST 2021]; root of context hierarchy
+2021-06-06 10:23:25.708  INFO [reap-demo,,,] 6424 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 10:23:25.877  INFO [reap-demo,,,] 6424 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$74058706] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 10:23:27.713  INFO [reap-demo,,,] 6424 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 10:23:27.898  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 10:23:29.393  INFO [reap-demo,,,] 6424 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 10:23:29.393  INFO [reap-demo,,,] 6424 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 10:23:29.711  INFO [reap-demo,,,] 6424 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 10:23:29.711  INFO [reap-demo,,,] 6424 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 10:23:30.369  INFO [reap-demo,,,] 6424 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 10:23:31.017  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 10:23:31.017  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 10:23:31.021  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 10:23:31.021  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 10:23:31.021  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 10:23:31.021  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 10:23:31.021  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 10:23:31.649  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 10:23:31.657  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 10:23:31.669  INFO [reap-demo,,,] 6424 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622946211665 with initial instances count: 3
+2021-06-06 10:23:33.117  INFO [reap-demo,,,] 6424 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 10:23:33.368  INFO [reap-demo,,,] 6424 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 10:23:33.372  INFO [reap-demo,,,] 6424 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
+2021-06-06 13:18:23.205  INFO [reap-demo,,,] 11260 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@461ad730: startup date [Sun Jun 06 13:18:23 CST 2021]; root of context hierarchy
+2021-06-06 13:18:24.581  INFO [reap-demo,,,] 11260 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 13:18:24.687  INFO [reap-demo,,,] 11260 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3b4b094b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 13:18:26.150  INFO [reap-demo,,,] 11260 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 13:18:26.302  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 13:18:28.169  INFO [reap-demo,,,] 11260 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 13:18:28.169  INFO [reap-demo,,,] 11260 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 13:18:28.506  INFO [reap-demo,,,] 11260 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 13:18:28.510  INFO [reap-demo,,,] 11260 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 13:18:29.159  INFO [reap-demo,,,] 11260 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 13:18:29.933  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 13:18:29.933  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 13:18:29.933  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 13:18:29.933  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 13:18:29.937  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 13:18:29.937  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 13:18:29.937  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 13:18:30.557  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 13:18:30.561  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 13:18:30.573  INFO [reap-demo,,,] 11260 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622956710569 with initial instances count: 2
+2021-06-06 13:18:32.203  INFO [reap-demo,,,] 11260 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 13:18:32.504  INFO [reap-demo,,,] 11260 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 13:18:32.504  INFO [reap-demo,,,] 11260 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
+2021-06-06 13:23:47.664  INFO [reap-demo,,,] 14248 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@821330f: startup date [Sun Jun 06 13:23:47 CST 2021]; root of context hierarchy
+2021-06-06 13:23:48.913  INFO [reap-demo,,,] 14248 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 13:23:49.095  INFO [reap-demo,,,] 14248 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$23fdb582] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 13:23:50.788  INFO [reap-demo,,,] 14248 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 13:23:50.960  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 13:23:52.295  INFO [reap-demo,,,] 14248 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 13:23:52.299  INFO [reap-demo,,,] 14248 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 13:23:52.597  INFO [reap-demo,,,] 14248 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 13:23:52.597  INFO [reap-demo,,,] 14248 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 13:23:53.248  INFO [reap-demo,,,] 14248 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 13:23:53.833  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 13:23:54.321  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 13:23:54.333  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 13:23:54.341  INFO [reap-demo,,,] 14248 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622957034337 with initial instances count: 3
+2021-06-06 13:23:55.604  INFO [reap-demo,,,] 14248 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 13:23:55.759  INFO [reap-demo,,,] 14248 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 13:23:55.763  INFO [reap-demo,,,] 14248 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
+2021-06-06 13:30:50.032  INFO [reap-demo,,,] 9756 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2657d4dd: startup date [Sun Jun 06 13:30:50 CST 2021]; root of context hierarchy
+2021-06-06 13:30:51.724  INFO [reap-demo,,,] 9756 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 13:30:51.892  INFO [reap-demo,,,] 9756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cd1ff299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 13:30:53.552  INFO [reap-demo,,,] 9756 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 13:30:53.742  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 13:30:55.318  INFO [reap-demo,,,] 9756 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 13:30:55.322  INFO [reap-demo,,,] 9756 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 13:30:55.639  INFO [reap-demo,,,] 9756 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 13:30:55.639  INFO [reap-demo,,,] 9756 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 13:30:56.275  INFO [reap-demo,,,] 9756 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 13:30:56.904  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 13:30:56.904  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 13:30:56.904  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 13:30:56.904  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 13:30:56.908  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 13:30:56.908  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 13:30:56.908  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 13:30:57.357  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 13:30:57.365  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 13:30:57.381  INFO [reap-demo,,,] 9756 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622957457369 with initial instances count: 3
+2021-06-06 13:30:58.706  INFO [reap-demo,,,] 9756 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 13:30:58.851  INFO [reap-demo,,,] 9756 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 13:30:58.851  INFO [reap-demo,,,] 9756 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
+2021-06-06 16:04:52.167  INFO [reap-demo,,,] 6488 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d5620ce: startup date [Sun Jun 06 16:04:52 CST 2021]; root of context hierarchy
+2021-06-06 16:04:53.021  INFO [reap-demo,,,] 6488 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-06 16:04:53.153  INFO [reap-demo,,,] 6488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$29a47a3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-06 16:04:55.310  INFO [reap-demo,,,] 6488 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-06 16:04:55.487  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-06 16:04:56.952  INFO [reap-demo,,,] 6488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-06 16:04:56.952  INFO [reap-demo,,,] 6488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-06 16:04:57.307  INFO [reap-demo,,,] 6488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-06 16:04:57.307  INFO [reap-demo,,,] 6488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-06 16:04:58.103  INFO [reap-demo,,,] 6488 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-06 16:04:58.780  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-06 16:04:59.556  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-06 16:04:59.564  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2021-06-06 16:04:59.576  INFO [reap-demo,,,] 6488 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622966699572 with initial instances count: 3
+2021-06-06 16:05:01.377  INFO [reap-demo,,,] 6488 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://USER-20190202OP:8761/config
+2021-06-06 16:05:01.731  INFO [reap-demo,,,] 6488 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=reap,reap-demo, profiles=[prd], label=default, version=null, state=null
+2021-06-06 16:05:01.731  INFO [reap-demo,,,] 6488 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='reap-demo-prd'}, MapPropertySource {name='reap-prd'}]}
